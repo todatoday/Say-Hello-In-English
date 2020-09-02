@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    color: black;
+    background-image: url(image/disert.jpg);
+    backface-visibility: initial;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+
+.header{
+    margin-top: 0px;
+    background-attachment: fixed;
+}
+
+.header h1{
+    margin-top: 0px;
+    transition: all 2s;
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+    background-color:  #B4513C5C;
+    font-weight: bold;
+    font-size: 3em;
+    height: 100px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 50px;               
+}
+
+
+.header h1:hover{
+    transform: rotate(15deg);
+    transform-origin: 0 0;          
+}
+
+.main-container{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100px;  
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.main-container ul li{
+    list-style-type: none;
+}
+ul li{
+    list-style: none;
+}
+
+a{
+    font-size: 1.em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-shadow: 5px 5px 10px black;
+}
+
+
+a:hover{
+    color: black;
+    border: 1px solid #B4513C5C;
+    background-color: #B4513C5C;
+}
+.titles{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.main-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    background-color:  rgb(238, 203, 187);
+    margin-top: 150px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 400px;
+    text-align: center;
+    padding-top: 200px; 
+    font-size: 20px;
+    
+}
+
+
+.bloc_b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;   
+    font-size: 20px;
+}
+
+
+.bloc_l{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 20px;
+}
+
+
+.bloc_o{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-size: 20px;
+    
+}
+
+.image img{
+    height: 300px;
+    width: 450px;
+
+}
+.contenu_p{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: #B4513C5C;
+    margin: 0px 100px 0px 100px;
+     
+}
+
+#footer{
+    background-color: #A0522D;
+    margin-bottom: auto;
+    display: block;
+    border-top:2px solid black;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 70px;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+.row{
+   
+    margin-bottom: 0px;
+    display: block;
+    height: 320px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 70px;
+    font-size: 15px;
+}
+
+.fa {
+
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+}
+
+.fa:hover{
+    
+     opacity: 0.7;
+    
+}
+
+.fa-facebook{
+      background-color: #3B5998;
+      
+}
+
+
+.fa-twitter{
+      background-color: #55ACEE;
+}
+
+.fa-instagram{
+      background-color: #125688;
+}
+
+.fa-youtube{
+      background-color: #bb0000;
+}
+  
+.follow{
+    display: flex;
+    flex-direction: column;
+    height: 350px;   
+}
+
+.us{
+   
+    height: 250px;
+}
+
+.adress{
+   
+    height: 250px;
+}
+
+
+.box{
+    width: 200px;
+}
+
+
+.contain_box{
+    background-color:#A0522D;
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
